@@ -81,6 +81,17 @@ console.log(item3);
 
 //opdr 6
 
+
+
+
+//opdr 7
+
+for (let i= 0; i < eetreceptenArray.length; i++) {
+    const e = eetreceptenArray[i];
+    console.log("title is", e.titel );
+    console.log("beschrijving is", e.beschrijving );
+    console.log("gezond is", e.gezond );
+}
 //const productPindakaas = {
    // title: "pindakaas ",
    // description : "calve  250g",
